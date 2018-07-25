@@ -1,4 +1,15 @@
- [![TableExport](/Hero.png)](https://tableexport.travismclarke.com)
+Fork from the TableExport.js library.
+
+This fork is for allowing people who use the JQWIDGET library to use table export.
+JQWIDGET has already a function for export data, but the data go through there server if you use the free Non-Commercial License.
+
+As JQXDataTable, JQXGreed and JQXTreeGrid haven't their collumns header in a <tr> tag.
+
+In this fork, you have JQWidget. False by default, you can set it true when calling tableExport method, for getting the header with a table of the JQWidget library.
+
+
+
+[![TableExport](/Hero.png)](https://tableexport.travismclarke.com)
 <!-- # [TableExport](https://tableexport.travismclarke.com) -->
 <!-- The simple, easy-to-implement library to export HTML tables to `xlsx`, `xls`, `csv`, and `txt` files. -->
 
